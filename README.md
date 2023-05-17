@@ -7,10 +7,9 @@
 ![screensh](img/홈페이지.png)
 
 ## 목적
-   - 파킨슨병 환자의 임상 데이터를 사용하여 파킨슨병 환자의 진행을 측정하는 MDS-UPDRS(통합 파킨슨병 평가척도)를 예측하기
+   - 파킨슨병 환자의 임상 데이터를 사용하여 파킨슨병 환자의 진행을 측정하는   MDS-UPDRS  (통합 파킨슨병 평가척도)를  예측하기
 ## 데이터
-   - Train data
-   - Test data
+   - Kaggle : AMP®-Parkinson's Disease Progression Prediction
 
 ## ERD
 ![screensh](img/erd.png)
