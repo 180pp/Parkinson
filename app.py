@@ -8,6 +8,7 @@ from description import run_description
 from data import run_data
 from eda_app import run_eda
 from stat_app import run_status
+from stat_app import run_stat_box
 from ML import run_mls
 from ML import feautreImportancePlot
 from ML import run_model
@@ -22,8 +23,8 @@ st.set_page_config(page_title='Parkinson Disease Progression Prediction', page_i
 def main():
     with st.sidebar:
         selected = option_menu("Main Menu", ['Home', 'Description', 'Data', 'EDA', 'STAT', 'ML'],
-                icons=['house', 'card-checklist', 'card-checklist', 'bar-chart', 'clipboard-data', 'motherboard'],
-                menu_icon="cast", default_index=0, orientation = 'vertical')
+                icons=['house', 'card-checklist', 'folder-symlink', 'bar-chart', 'clipboard-data', 'motherboard'],
+                menu_icon="list", default_index=0, orientation = 'vertical')
 
     if selected == 'Home':
         st.markdown("<h1 style='text-align: center; color: darkblue;'>AMP®-Parkinson's </span><span style='text-align: center; color: darkmagenta;'>Disease Progression Prediction</span>",
@@ -72,7 +73,7 @@ def main():
         # Link
         c1, c2, c3 = st.columns(3)
         with c1:
-            st.info('**Data Analyst: [@Sung](https://muhanyuljung.tistory.com/)**', icon="💡")
+            st.info('**Data Analyst: [@MST](https://moonstyle1997.tistory.com/)**', icon="💡")
         with c2:
             st.info('**GitHub: [@MST](https://github.com/MoonStyIe/Parkinson)**', icon="💻")
         with c3:
